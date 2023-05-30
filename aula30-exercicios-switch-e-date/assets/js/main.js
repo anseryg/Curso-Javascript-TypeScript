@@ -26,5 +26,5 @@ const hora = zeroAEsquerda(data.getHours());
 const min = zeroAEsquerda(data.getMinutes());
 const sec = zeroAEsquerda(data.getSeconds());
 
-const mainText = document.querySelector('.data')
+const mainText = document.querySelector('.container h1');
 mainText.innerHTML = `<h1>${dataDia}, ${dataDiaMes} de ${dataMes} de ${dataAno} - ${hora}:${min}:${sec}</h1>`
